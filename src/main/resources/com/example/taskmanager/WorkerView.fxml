@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+
+<VBox alignment="CENTER" spacing="10" prefWidth="1000" prefHeight="500" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controllers.WorkerController">
+    <stylesheets>
+        <URL value="@modernStyle.css" />
+    </stylesheets>
+    <Button text="Logout" onAction="#handleLogoutButtonAction"/>
+    <Label text="Worker Tasks"/>
+    <TableView fx:id="taskTableView">
+        <columns>
+            <TableColumn fx:id="titleColumn" text="Title" prefWidth="150"/>
+            <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="150"/>
+            <TableColumn fx:id="deadlineColumn" text="Deadline" prefWidth="150"/>
+            <TableColumn fx:id="priorityColumn" text="Priority" prefWidth="150"/>
+            <TableColumn fx:id="isDoneColumn" text="Is Done" prefWidth="150"/>
+            <TableColumn fx:id="actionColumn" text="Action" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>

@@ -1,0 +1,59 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 14px;
+    -fx-cursor: pointer;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green when hovered */
+}
+
+.label {
+    -fx-font-size: 18px; /* Larger font size for labels */
+    -fx-text-fill: #333333; /* Dark gray color for text */
+}
+
+.text-field, .password-field {
+    -fx-background-color: #FFFFFF; /* White background for text fields */
+    -fx-border-color: #CCCCCC; /* Light gray border for text fields */
+    -fx-border-radius: 5; /* Rounded corners for text fields */
+    -fx-padding: 5; /* Padding inside text fields */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #4CAF50; /* Green border when text fields are focused */
+}
+
+.table-view {
+    -fx-base: #f0f0f0; /* Light gray background for table view */
+    -fx-control-inner-background: #f0f0f0; /* Light gray background for table cells */
+    -fx-table-cell-border-color: #CCCCCC; /* Light gray border for table cells */
+}
+
+.table-column {
+    -fx-background-color: #f0f0f0; /* Light gray background for table columns */
+    -fx-border-color: #CCCCCC; /* Light gray border for table columns */
+}
+
+.combobox {
+    -fx-background-color: #FFFFFF; /* White background for combobox */
+    -fx-border-color: #CCCCCC; /* Light gray border for combobox */
+    -fx-border-radius: 5; /* Rounded corners for combobox */
+    -fx-padding: 5; /* Padding inside combobox */
+}
+
+.combobox:focused {
+    -fx-border-color: #4CAF50; /* Green border when combobox is focused */
+}
+.small-label {
+    -fx-font-size: 12px; /* Smaller font size for labels */
+    -fx-text-fill: #333333; /* Dark gray color for text */
+}

@@ -1,0 +1,15 @@
+Singleton (Singleton Pattern):
+
+Singleton zostanie zastosowany do klasy ApplicationManager, aby zapewnić, że istnieje tylko jedna instancja managera dla całej aplikacji.
+Builder (Builder Pattern):
+
+Builder Pattern zostanie zastosowany do klasy TaskBuilder, aby umożliwić krok po kroku konstrukcję obiektów zadania (Task).
+Adapter (Adapter Pattern):
+
+Adapter Pattern zostanie zastosowany do klasy SpeechToTextAdapter, aby dostosować interfejs do konwersji mowy na tekst do interfejsu używanego przez NoteManager.
+
+Decorator (Decorator Pattern):
+Decorator Pattern zostanie zastosowany do dodania funkcji logowania do klasy TaskManager. Dzięki temu możemy logować informacje o operacjach wykonywanych przez TaskManager bez zmiany samej klasy.
+
+Observer (Observer Pattern):
+Observer Pattern zostanie zastosowany do klasy TaskObserver oraz NoteObserver do umożliwienia subskrypcji i powiadamiania obiektów o zmianach w systemie zarządzania zadaniami i notatkami.
